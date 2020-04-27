@@ -114,6 +114,99 @@ img[alt="welcome to my homepage"] {
 
 .instructions-content h2 {
 	margin-top: 0;
+}
+
+/**
+About Me Section
+ */
+
+section.about-me{
+	background-color: blue;
+	color: #ffffff;
+}
+
+.about-me img{
+	width: 18vw;
+	float: left;
+	margin-right: 2.0em;
+	border: .14em solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
+
+/**
+SKILLZ section
+ */
+
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+section:nth-child(4) table {
+	width:100%;
+	color: lime;
 
 }
+
+section:nth-child(4) th,
+section:nth-child(4) td {
+	text-align: left;
+	padding:.8em;
+	background-color: rgb(51,51,51);
+}
+
+
+/**
+Contact Me Section
+ */
+div.sfooter-content section:last-child {
+	background-color: rgb(51,51,51);
+}
+
+.form-wrapper{
+	background-color: darkgreen;
+	color: limegreen;
+	padding: 1.33em;
+}
+
+label {
+	display: flex;
+	margin: 15px 0 5px 0;
+}
+
+input, textarea {
+	width: 33%;
+	padding: 8px;
+}
+
+button {
+	background-color: lime;
+	padding: 0.65em 1.6em;
+	font-weight: bold;
+	font-size: 1rem;
+	border: none;
+}
+
+form div:nth-child(4) {
+	margin-bottom: 1em;
+}
+
+.form-wrapper h2 {
+	margin-top: 0;
+}
+
+
+/**
+Footer Section
+ */
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
 
