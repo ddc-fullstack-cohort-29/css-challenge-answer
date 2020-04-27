@@ -63,4 +63,15 @@ body { width: 100%;}
 ******************************************************/
 
 
+/***
+* global CSS Styling rules
+***/
+body {
+	font-family : monospace, 'Courier New';
+}
+
+section {
+	padding: 2.5rem 0;
+}
+
 
