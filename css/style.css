@@ -75,3 +75,18 @@ section {
 }
 
 
+/***
+* Header Section
+ ****/
+
+header {
+	color: lime;
+	background-color: rgb(51, 51, 51);
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 1.5rem;
+	font-size: 2.5rem;
+}
+
