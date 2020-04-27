@@ -90,3 +90,30 @@ header h1 {
 	font-size: 2.5rem;
 }
 
+/***
+ instructions section
+***/
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper{
+	display: flex;
+	border: 4px solid black;
+	padding: 20px;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+}
+
+.instructions-content {
+	padding-right: 20rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+
+}
+
